@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>EMIS Pesantren - Pusat Bantuan</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style type="text/tailwindcss">
+    @layer theme {
+      :root {
+        --primary-green: #16a34a;--light-green: #f0fdf4;
+        --dark-green: #14532d;
+      }
+    }
+  </style>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "var(--primary-green)",
+            "primary-light": "var(--light-green)",
+            "primary-dark": "var(--dark-green)",
+            "background-light": "#F8F9FA",
+            "background-dark": "#101622",
+          },
+          fontFamily: {
+            "display": ["Public Sans", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.5rem",
+            "lg": "0.75rem",
+            "xl": "1rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    body {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  </style>
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark">
+<div class="relative flex min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex w-full justify-center bg-primary-dark text-white">
+<div class="flex w-full max-w-7xl items-center justify-between px-4 sm:px-9 lg:px-8 py-6">
+<div class="flex items-center gap-4">
+<div class="flex h-20 w-20 items-center justify-center rounded-lg bg-white/10">
+<img src="E:/download data/Logo_Kementerian_Agama__Kemenag__Indonesia_-_Download_File_Vector_PNG-removebg-preview.png" width = "500" height = "350" />
+</div>
+<div>
+<h2 class="text-lg font-bold leading-tight">FAQ EMIS PESANTREN</h2>
+<p class="text-sm text-gray-300">Kementerian Agama RI</p>
+</div>
+</div>
+<div class="flex items-center">
+</div>
+</div>
+</header>
+<main class="flex flex-1 justify-center py-5">
+<div class="layout-content-container flex w-full max-w-7xl flex-1 flex-col gap-10 sm:gap-12 px-4 sm:px-6 lg:px-8">
+<section class="flex flex-col items-center gap-4 pt-10 text-center">
+<h1 class="text-3xl font-bold tracking-tight text-[#343A40] dark:text-white sm:text-4xl">Selamat Datang di Pusat Bantuan EMIS PESANTREN</h1>
+<p class="max-w-3xl text-base leading-relaxed text-gray-600 dark:text-gray-400">Temukan jawaban untuk pertanyaan umum seputar Education Management Information System. Pilih kategori di bawah untuk melihat panduan lengkap.</p>
+</section>
+<section class="flex flex-col gap-8">
+<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+<a class="group flex flex-col gap-4 rounded-xl border border-solid border-[#DEE2E6] bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary hover:shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:border-primary" href="FAQ Akun.html">
+<div class="flex items-center justify-between">
+<div class="flex h-10 w-10 items-center justify-center rounded-full bg-primary-light text-primary">
+<span class="material-symbols-outlined">person</span>
+</div>
+</div>
+<div class="flex flex-1 flex-col gap-2">
+<h3 class="text-base font-bold text-[#343A40] dark:text-white">FAQ Akun</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">Panduan pembuatan, pengelolaan, dan keamanan akun EMIS</p>
+</div>
+<div class="flex items-center justify-between text-sm">
+<span class="material-symbols-outlined text-gray-400 transition-transform duration-300 group-hover:translate-x-1 group-hover:text-primary dark:text-gray-500">arrow_forward</span>
+</div>
+</a>
+<a class="group flex flex-col gap-4 rounded-xl border border-solid border-[#DEE2E6] bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary hover:shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:border-primary" href="FAQ Kelembagaan.html">
+<div class="flex items-center justify-between">
+<div class="flex h-10 w-10 items-center justify-center rounded-full bg-primary-light text-primary">
+<span class="material-symbols-outlined">account_balance</span>
+</div>
+</div>
+<div class="flex flex-1 flex-col gap-2">
+<h3 class="text-base font-bold text-[#343A40] dark:text-white">FAQ Kelembagaan</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">Pengelolaan data profil dan legalitas lembaga pendidikan</p>
+</div>
+<div class="flex items-center justify-between text-sm">
+<span class="material-symbols-outlined text-gray-400 transition-transform duration-300 group-hover:translate-x-1 group-hover:text-primary dark:text-gray-500">arrow_forward</span>
+</div>
+</a>
+<a class="group flex flex-col gap-4 rounded-xl border border-solid border-[#DEE2E6] bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary hover:shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:border-primary" href="FAQ Sarana Prasarana.html">
+<div class="flex items-center justify-between">
+<div class="flex h-10 w-10 items-center justify-center rounded-full bg-primary-light text-primary">
+<span class="material-symbols-outlined">maps_home_work</span>
+</div>
+</div>
+<div class="flex flex-1 flex-col gap-2">
+<h3 class="text-base font-bold text-[#343A40] dark:text-white">FAQ Sarana Prasarana</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">Pengelolaan data fasilitas dan infrastruktur</p>
+</div>
+<div class="flex items-center justify-between text-sm">
+<span class="material-symbols-outlined text-gray-400 transition-transform duration-300 group-hover:translate-x-1 group-hover:text-primary dark:text-gray-500">arrow_forward</span>
+</div>
+</a>
+<a class="group flex flex-col gap-4 rounded-xl border border-solid border-[#DEE2E6] bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary hover:shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:border-primary" href="FAQ Santri.html">
+<div class="flex items-center justify-between">
+<div class="flex h-10 w-10 items-center justify-center rounded-full bg-primary-light text-primary">
+<span class="material-symbols-outlined">school</span>
+</div>
+</div>
+<div class="flex flex-1 flex-col gap-2">
+<h3 class="text-base font-bold text-[#343A40] dark:text-white">FAQ Santri</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">Pengelolaan data peserta didik dan kesiswaan</p>
+</div>
+<div class="flex items-center justify-between text-sm">
+<span class="material-symbols-outlined text-gray-400 transition-transform duration-300 group-hover:translate-x-1 group-hover:text-primary dark:text-gray-500">arrow_forward</span>
+</div>
+</a>
+<a class="group flex flex-col gap-4 rounded-xl border border-solid border-[#DEE2E6] bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary hover:shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:border-primary" href="FAQ Ustadz.html">
+<div class="flex items-center justify-between">
+<div class="flex h-10 w-10 items-center justify-center rounded-full bg-primary-light text-primary">
+<span class="material-symbols-outlined">supervisor_account</span>
+</div>
+</div>
+<div class="flex flex-1 flex-col gap-2">
+<h3 class="text-base font-bold text-[#343A40] dark:text-white">FAQ Ustadz</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">Pengelolaan data pendidik dan tenaga kependidikan</p>
+</div>
+<div class="flex items-center justify-between text-sm">
+<span class="material-symbols-outlined text-gray-400 transition-transform duration-300 group-hover:translate-x-1 group-hover:text-primary dark:text-gray-500">arrow_forward</span>
+</div>
+</a>
+<a class="group flex flex-col gap-4 rounded-xl border border-solid border-[#DEE2E6] bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary hover:shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:border-primary" href="FAQ Monitoring.html">
+<div class="flex items-center justify-between">
+<div class="flex h-10 w-10 items-center justify-center rounded-full bg-primary-light text-primary">
+<span class="material-symbols-outlined">monitoring</span>
+</div>
+</div>
+<div class="flex flex-1 flex-col gap-2">
+<h3 class="text-base font-bold text-[#343A40] dark:text-white">FAQ Monitoring</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">Pemantauan dan validasi data di sistem EMIS</p>
+</div>
+<div class="flex items-center justify-between text-sm">
+<span class="material-symbols-outlined text-gray-400 transition-transform duration-300 group-hover:translate-x-1 group-hover:text-primary dark:text-gray-500">arrow_forward</span>
+</div>
+</a>
+<a class="group flex flex-col gap-4 rounded-xl border border-solid border-[#DEE2E6] bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary hover:shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:border-primary" href="FAQ Konfirmasi.html">
+<div class="flex items-center justify-between">
+<div class="flex h-10 w-10 items-center justify-center rounded-full bg-primary-light text-primary">
+<span class="material-symbols-outlined">task_alt</span>
+</div>
+</div>
+<div class="flex flex-1 flex-col gap-2">
+<h3 class="text-base font-bold text-[#343A40] dark:text-white">FAQ Konfirmasi</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">Proses verifikasi dan finalisasi data semester</p>
+</div>
+<div class="flex items-center justify-between text-sm">
+<span class="material-symbols-outlined text-gray-400 transition-transform duration-300 group-hover:translate-x-1 group-hover:text-primary dark:text-gray-500">arrow_forward</span>
+</div>
+</a>
+<a class="group flex flex-col gap-4 rounded-xl border border-solid border-[#DEE2E6] bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-primary hover:shadow-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:border-primary" href="FAQ Layanan dan Bantuan.html">
+<div class="flex items-center justify-between">
+<div class="flex h-10 w-10 items-center justify-center rounded-full bg-primary-light text-primary">
+<span class="material-symbols-outlined">support_agent</span>
+</div>
+</div>
+<div class="flex flex-1 flex-col gap-2">
+<h3 class="text-base font-bold text-[#343A40] dark:text-white">FAQ Layanan dan Bantuan</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">Dukungan teknis dan layanan bantuan EMIS</p>
+</div>
+<div class="flex items-center justify-between text-sm">
+<span class="material-symbols-outlined text-gray-400 transition-transform duration-300 group-hover:translate-x-1 group-hover:text-primary dark:text-gray-500">arrow_forward</span>
+</div>
+</a>
+</div>
+</section>
+<section class="grid grid-cols-1 gap-8 md:grid-cols-3 py-8">
+<div class="flex flex-col items-center gap-3 text-center">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-primary-light text-primary"><span class="material-symbols-outlined text-3xl">menu_book</span></div>
+<h4 class="text-lg font-bold text-[#343A40] dark:text-white">Panduan Lengkap</h4>
+<p class="text-sm text-gray-500 dark:text-gray-400">Dokumentasi komprehensif untuk setiap modul EMIS</p>
+</div>
+<div class="flex flex-col items-center gap-3 text-center">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-primary-light text-primary"><span class="material-symbols-outlined text-3xl">update</span></div>
+<h4 class="text-lg font-bold text-[#343A40] dark:text-white">Update Berkala</h4>
+<p class="text-sm text-gray-500 dark:text-gray-400">FAQ selalu diperbarui sesuai fitur terbaru sistem</p>
+</div>
+<div class="flex flex-col items-center gap-3 text-center">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-primary-light text-primary"><span class="material-symbols-outlined text-3xl">headset_mic</span></div>
+<h4 class="text-lg font-bold text-[#343A40] dark:text-white">Dukungan 24/7</h4>
+<p class="text-sm text-gray-500 dark:text-gray-400">Tim support siap membantu mengatasi kendala Anda</p>
+</div>
+</section>
+</div>
+</main>
+<footer class="mt-auto w-full bg-primary-dark py-12 text-white">
+<div class="mx-auto flex w-full max-w-7xl flex-col items-center justify-center gap-6 px-4 text-center sm:px-6 lg:px-8">
+<div class="flex flex-col items-center gap-2">
+<h3 class="text-2xl font-bold">Masih Membutuhkan Bantuan?</h3>
+<p class="max-w-xl text-gray-300">Jika tidak menemukan jawaban yang Anda cari, silakan hubungi tim support kami</p>
+</div>
+<div class="flex flex-col gap-4 sm:flex-row">
+<button class="flex h-11 cursor-pointer items-center justify-center overflow-hidden rounded-md bg-white px-6 text-base font-semibold text-primary-dark transition hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-2 focus:ring-offset-primary-dark">
+<span class="truncate">Email Support</span>
+</button>
+<button class="flex h-11 cursor-pointer items-center justify-center overflow-hidden rounded-md bg-white/10 px-6 text-base font-semibold text-white transition hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-2 focus:ring-offset-primary-dark">
+<span class="truncate">Info Kontak Lengkap</span>
+</button>
+</div>
+</div>
+</footer>
+</div>
+</div>
+
+</body></html>
